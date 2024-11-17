@@ -1,0 +1,31 @@
+body {
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    
+    background-image: url('imgs/brad-huchteman-stone-mountain.jpg');
+    /* background-size: cover; Ensures the image covers the entire screen */
+    background-repeat: no-repeat; /* Prevents tiling */
+    background-position: center;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    background-color: whitesmoke;
+}
+
+.left-side {
+    flex: 1;
+}
+
+.button-div, .form-header, .form-div {
+    flex: 1;
+}
+
+.form-div {
+    background-color: white;
+    box-shadow: 0px 5px 10px lightgrey;
+}
