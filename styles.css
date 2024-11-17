@@ -17,15 +17,58 @@ body {
     background-color: whitesmoke;
 }
 
+
 .left-side {
+    display: flex;
+    flex-direction: column;
     flex: 1;
 }
 
 .button-div, .form-header, .form-div {
+    padding: 32px 32px;
     flex: 1;
+}
+
+.form-header {
+    padding: 16px 16px 16px 16px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-weight: bold;
 }
 
 .form-div {
     background-color: white;
     box-shadow: 0px 5px 10px lightgrey;
+}
+
+.top-spacer{
+    flex: 1;
+}
+
+.bottom-spacer {
+    flex: 3;
+}
+
+.logo-div {
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+}
+
+
+
+.create-account {
+    color: white;
+    margin: 0px 16px;
+    background-color: olivedrab;
+    padding: 16px 24px;
+    border: 16px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.login-link {
+    font-weight: bolder;
+    color: olivedrab;
+
 }
