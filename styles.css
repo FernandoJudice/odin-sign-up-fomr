@@ -13,7 +13,7 @@ body {
 .right-side {
     display: flex;
     flex-direction: column;
-    flex: 2;
+    flex: 3;
     background-color: whitesmoke;
 }
 
@@ -21,7 +21,7 @@ body {
 .left-side {
     display: flex;
     flex-direction: column;
-    flex: 1;
+    flex: 2;
 }
 
 .button-div, .form-header, .form-div {
@@ -31,10 +31,12 @@ body {
 
 .form-header {
     padding: 16px 16px 16px 16px;
+    margin-bottom: 24px;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     font-weight: bold;
+    font-size: 2rem;
 }
 
 .form-div {
@@ -51,10 +53,20 @@ body {
 }
 
 .logo-div {
+    display: flex;
+    align-items: center;
+    padding: 32px 32px;
     background-color: rgba(0,0,0,0.5);
     color: white;
+    text-align: center;
+    
 }
 
+.logo-text {
+    padding: 36px 36px;
+    color: white;
+    font-size: 3rem;
+}
 
 
 .create-account {
