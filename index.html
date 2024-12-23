@@ -21,11 +21,46 @@
         <div class="form-header">
             This is an amazing form that i'll definitelly use when building real products and making concierge tests. If you want this fake product for you, subscribre to our wish list below!<br><br>C'mon, It's easy!
         </div>
-        <div class="form-div"></div>
+        <div class="form-div">
+            <div class="form-subheader">Let's do This</div>
+            <form action="my-handling-form-page" method="post">
+                
+                <div class="form-content">
+                    <div class="form-column">
+                        <div class="field">
+                            <div class="field-name">First Name</div>
+                            <input type="text" id="first-name" name="First Name">
+                        </div>
+                        <div class="field">
+                            <div class="field-name">E-mail</div>
+                            <input type="email" id="email" name="email">
+                        </div>
+                    <div class="field">
+                        <div class="field-name">Password</div>
+                        <input type="password" id="password" name="password">
+                    </div>
+                </div>
+                <div class="form-column">
+                    <div class="field">
+                        <div class="field-name">Last Name</div>
+                        <input type="text" id="last-name" name="Last Name">
+                    </div>
+                    <div class="field">
+                        <div class="field-name">Phone Number</div>
+                        <input type="number" id="phone-number" name="Phone Number">
+                    </div>
+                    <div class="field">
+                        <div class="field-name">Confirm Password</div>
+                        <input type="text" id="confirm-password" name="Confirm Password">
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="button-div">
-            <button class="create-account">Create account</button>
+            <button type="submit" class="create-account">Create account</button>
             <p class="login-text">Already have an account? <a href="index.html" class="login-link"> Log in</a></p>
         </div>
+    </form>
     </div>
 </body>
 </html>
